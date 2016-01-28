@@ -4,8 +4,8 @@
 
 import telegram, os, subprocess, threading, sqlite3, json, argparse, hashlib, re, sys, signal, requests
 
-vtapi = 'VT API'  # VirusTotal API key
-tgtoken = 'TG BOT API'   # Telegram API key
+vtapi = 'virustotal-basic-api-key'  # VirusTotal API key - https://www.virustotal.com/es/documentation/public-api/
+tgtoken = 'Botfather-API-key-Here'   # Telegram API key -  https://core.telegram.org/bots
 vtbase = 'https://www.virustotal.com/vtapi/v2/'
 bot = None
 
