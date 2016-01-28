@@ -1,6 +1,7 @@
 #!/bin/env python2
 # encoding: utf-8
 # -*- coding: utf-8 -*-
+# mquintans@mlw.re
 
 import telegram, os, subprocess, threading, sqlite3, json, argparse, hashlib, re, sys, signal, requests
 
